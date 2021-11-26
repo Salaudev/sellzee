@@ -1,0 +1,52 @@
+body {
+  font-family: Inter, sans-serif;
+
+  #section4 {
+    background-image: url("../images/background.png");
+    background-position: center;
+    background-size: cover;
+
+    .col-12 {
+      background-image: url("../images/hexagon.png");
+      background-position: center;
+      background-size: cover;
+
+      h1 {
+        color: #1F37FF;
+      }
+    }
+  }
+
+  #section5 {
+    .container {
+      .row {
+        .col-12 {
+
+          .card {
+            border-color: #1F37FF !important;
+            transition: all .4s ease-in-out;
+
+            &:hover {
+              background-color: #1F37FF;
+              color: white !important;
+            }
+            i {
+              font-size: 40px;
+              color: #1F37FF;
+              transition: all .4s ease-in-out;
+            }
+            &:hover i {
+              color: white;
+            }
+            &.first:hover{
+              background-color: #fff !important;
+              color: #000 !important;
+            }
+
+          }
+
+        }
+      }
+    }
+  }
+}

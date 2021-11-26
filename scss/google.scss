@@ -1,0 +1,64 @@
+.brends{
+    padding: 50px 0px;
+    text-align: center;
+    overflow: hidden;
+    .brend{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        img{
+            display: inline-block !important;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            height: 46px;
+            margin-bottom: 20px;
+        }
+        .brend1{
+            padding: 8px 32px;
+        }
+        .brend2{
+            padding: 8px 33px;
+        }
+        .brend3{
+            padding: 8px 40px;
+        }
+        .brend4{
+            padding: 8px 15px;
+        }
+        .brend5{
+            padding: 8px 32px;
+        }
+        .brend6{
+            padding: 8px 50px;
+        }
+        .brend7{
+            padding: 8px 21px;
+        }
+    }
+}
+
+.bottom-google{
+    .group{
+        width: 100%;
+    }
+    span{
+        color: #FF5A05;
+    }
+    h3{
+        font-size: 35px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        padding-left: 20px;
+    }
+    button{
+        border: none;
+        background-color: #FF5A05;
+        color: white;
+        margin-top: 20px;
+        padding: 8px 30px;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+}
